@@ -1,0 +1,367 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Levent KOMAN</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="/Content/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Content/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/Content/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/Content/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="Anasayfa/Index" class="logo">
+                <span class="logo-mini"><b>A</b>LT</span>
+                <span class="logo-lg"><b>Admin</b>Sayfası</span>
+            </a>
+            <nav class="navbar navbar-static-top">
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="/Content/dist/img/user2-160x160.png" class="user-image" alt="User Image">
+                                <span class="hidden-xs">Levent KOMAN</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li class="user-header">
+                                    <img src="/Content/dist/img/user2-160x160.png" class="img-circle" alt="User Image">
+                                    <p>
+                                        Levent KOMAN - Computer Engineer
+                                        <strong>Tarih</strong>
+                                        <small> @DateTime.Now</small>
+                                    </p>
+                                </li>
+                                <li class="user-body">
+                                    <div class="row">
+
+                                    </div>
+                                </li>
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="https://www.instagram.com/leventkoman/" class="btn btn-default btn-flat">Profil</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="Account/Signin" class="btn btn-default btn-flat">Çıkış</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="/Content/dist/img/user2-160x160.png" class="img-circle" alt="User Image">
+                    </div>
+                    <div class="pull-left info">
+                        <p>Levent KOMAN</p>
+                        <a href="Account/Signin"><i class="fa fa-circle text-success"></i> Online</a>
+
+                    </div>
+                </div>
+                <form action="#" method="get" class="sidebar-form">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+                <ul class="sidebar-menu" data-widget="tree">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> <span>Sporcu İşlemler</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/Anasayfa/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/Anasayfa/Create"><i class="fa fa-circle-o"></i> Yeni Sporcu Ekle</a></li>
+                            <li><a href="/Anasayfa/Delete/"><i class="fa fa-circle-o"></i> Sporcu Silme</a></li>
+                            <li><a href="/Anasayfa/Update/"><i class="fa fa-circle-o"></i> Sporcu Güncelleme</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-files-o"></i>
+                            <span>Antrenman işlemleri</span>
+                            <span class="pull-right-container">
+                                <span class="label label-primary pull-right"></span>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/Antreman/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/Antreman/Create"><i class="fa fa-circle-o"></i> Yeni Antreman Ekle</a></li>
+                            <li><a href="/Antreman/Delete/"><i class="fa fa-circle-o"></i> Antreman Silme</a></li>
+                            <li><a href="/Antreman/Update/"><i class="fa fa-circle-o"></i> Antreman Güncelleme</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-files-o"></i>
+                            <span>Hareket Bölgesi İşlemleri</span>
+                            <span class="pull-right-container">
+                                <span class="label pull-right bg-green"></span>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/HareketGrup/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/HareketGrup/Create"><i class="fa fa-circle-o"></i> Yeni Hareket Bölgesi Ekle</a></li>
+                            <li><a href="/HareketGrup/Delete/"><i class="fa fa-circle-o"></i> Hareket Bölgesi Silme</a></li>
+                            <li><a href="/HareketGrup/Update/"><i class="fa fa-circle-o"></i> Hareket Bölgesi Güncelleme</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-files-o"></i>
+                            <span>Alt Hareket işlemleri</span>
+                            <span class="pull-right-container">
+                                <span class="fa fa-angle-left pull-right"></span>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/HareketAltGrup/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/HareketAltGrup/Create"><i class="fa fa-circle-o"></i> Yeni Hareket Ekle</a></li>
+                            <li><a href="/HareketAltGrup/Delete/"><i class="fa fa-circle-o"></i> Hareket Silme</a></li>
+                            <li><a href="/HareketAltGrup/Update/"><i class="fa fa-circle-o"></i> Hareket Güncelleme</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-files-o"></i>
+                            <span>Ölçüm Tipi işlemleri</span>
+                            <span class="pull-right-container">
+                                <span class="label label-primary pull-right"></span>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/OlcumTipi/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/OlcumTipi/Create"><i class="fa fa-circle-o"></i> Yeni Ölçüm Tipi Ekle</a></li>
+                            <li><a href="/OlcumTipi/Delete/"><i class="fa fa-circle-o"></i> Ölçüm Tipi Silme</a></li>
+                            <li><a href="/OlcumTipi/Update/"><i class="fa fa-circle-o"></i> Ölçüm Tipi Güncelleme</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-files-o"></i>
+                            <span>Ölçüm işlemleri</span>
+                            <span class="pull-right-container">
+                                <span class="label label-primary pull-right"></span>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="/Olcum/Index"><i class="fa fa-circle-o"></i> Ana Sayfa</a></li>
+                            <li><a href="/Olcum/Create"><i class="fa fa-circle-o"></i> Yeni Ölçümler Ekle</a></li>
+                            <li><a href="/Olcum/Delete/"><i class="fa fa-circle-o"></i> Ölçümler Silme</a></li>
+                            <li><a href="/Olcum/Update/"><i class="fa fa-circle-o"></i> Ölçümleri Güncelleme</a></li>
+                            <li><a href="/Olcum/ListToDate/"><i class="fa fa-circle-o"></i> Ölçümleri Tarihe Göre Listele</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        <div class="content-wrapper">
+            <section class="content-header">
+
+                <ol class="breadcrumb">
+                    <li><a href="/Anasayfa/Index"><i class="fa fa-dashboard"></i> Home</a></li>
+                </ol>
+            </section>
+            <section class="content">
+                @RenderBody()
+
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 2.4.0
+            </div>
+            <strong>Copyright &copy; 2018 <a href="https://www.instagram.com/leventkoman/"><i>by Levent KOMAN</i> </a>.</strong>
+        </footer>
+        <aside class="control-sidebar control-sidebar-dark">
+            <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+                <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane" id="control-sidebar-home-tab">
+                    <h3 class="control-sidebar-heading">Recent Activity</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                                    <p>Will be 23 on April 24th</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="menu-icon fa fa-user bg-yellow"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+                                    <p>New phone +1(800)555-1234</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+                                    <p>nora@example.com</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="menu-icon fa fa-file-code-o bg-green"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+                                    <p>Execution time 5 seconds</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <h3 class="control-sidebar-heading">Tasks Progress</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <h4 class="control-sidebar-subheading">
+                                    Custom Template Design
+                                    <span class="label label-danger pull-right">70%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <h4 class="control-sidebar-subheading">
+                                    Update Resume
+                                    <span class="label label-success pull-right">95%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <h4 class="control-sidebar-subheading">
+                                    Laravel Integration
+                                    <span class="label label-warning pull-right">50%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <h4 class="control-sidebar-subheading">
+                                    Back End Framework
+                                    <span class="label label-primary pull-right">68%</span>
+                                </h4>
+                                <div class="progress progress-xxs">
+                                    <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+                <div class="tab-pane" id="control-sidebar-settings-tab">
+                    <form method="post">
+                        <h3 class="control-sidebar-heading">General Settings</h3>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Report panel usage
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Some information about this general settings option
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Allow mail redirect
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Other sets of options are available
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Expose author name in posts
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                            <p>
+                                Allow the user to show his name in blog posts
+                            </p>
+                        </div>
+                        <h3 class="control-sidebar-heading">Chat Settings</h3>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Show me as online
+                                <input type="checkbox" class="pull-right" checked>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Turn off notifications
+                                <input type="checkbox" class="pull-right">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-sidebar-subheading">
+                                Delete chat history
+                                <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </aside>
+        <div class="control-sidebar-bg"></div>
+    </div>
+    <script src="/Content/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/Content/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/Content/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/Content/bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="/Content/dist/js/adminlte.min.js"></script>
+    <script src="/Content/dist/js/demo.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidebar-menu').tree()
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<GYMWebApp.DAL.HareketAltGrubu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+
+
+<p>
+    <h3>@Html.ActionLink("Yeni Hareket Ekle", "Create")</h3>
+    
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            HAREKETİN BÖLGESİ
+            @*@Html.DisplayNameFor(model => model.HareketGrubu.HareketAdi)*@
+        </th>
+        <th>
+            HAREKETİN ADI
+            @*@Html.DisplayNameFor(model => model.HarAltGrupAdi)*@
+        </th>
+        <th>İŞLEMLER</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.HareketGrubu.HareketAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HarAltGrupAdi)
+        </td>
+        <td>
+            <button type="button" class="bg-yellow">  @Html.ActionLink("Düzenle", "Update", new { id = item.Id }) </button>  
+            <button type="button" class="bg-red">@Html.ActionLink("Sil", "Delete", new { id = item.Id }) </button>
+        </td>
+    </tr>
+}
+
+</table>

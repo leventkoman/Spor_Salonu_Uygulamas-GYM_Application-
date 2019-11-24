@@ -1,0 +1,52 @@
+﻿@model IEnumerable<GYMWebApp.DAL.Sporcu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<p>
+    <h3>
+        @Html.ActionLink("Yeni Sporcu", "Create")
+    </h3>
+    </p>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>
+            ADI
+          
+        </th>
+        <th>
+            SOYADI
+           
+        </th>
+        <th>
+            YAŞ
+         
+        </th>
+        <th>İŞLEMLER</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soyadi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Yasi)
+        </td>
+        <td>
+            <button type="button" class="bg-yellow">  @Html.ActionLink("Düzenle", "Update", new { id = item.Id }) </button>
+         <button type="button" class="bg-red">@Html.ActionLink("Sil", "Delete", new { id = item.Id }) </button>
+
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<GYMWebApp.DAL.Antreman>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+
+
+
+<p>
+    @using (Html.BeginForm("Index", "Antreman", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <th>
+                    <h3>@Html.ActionLink("Yeni Antreman", "Create")</h3>
+                </th>
+                <th>
+                    @Html.DropDownList("Id", new SelectList(ViewBag.Sporcular, "Value", "Text"), htmlAttributes: new { @class = "form-control" })
+                </th>
+                <th> <input type="submit" value="Ara" /></th>
+    </tr>
+    </table>
+    }
+
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                ADI
+
+            </th>
+            <th>
+                SOYADI
+
+            </th>
+            <th>
+                HAREKET ADI
+            </th>
+
+            <th> İŞLEMLER</th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sporcu.Adi)
+
+                </td>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Sporcu.Soyadi)
+                </td>
+
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.HareketAltGrubu.HarAltGrupAdi)
+                </td>
+
+                <td>
+
+                    <button type="button" class="btn btn-default">@Html.ActionLink("Düzenle", "Update", new { id = item.Id }) </button>
+                    <button type="button" class="btn btn-flat">@Html.ActionLink("Sil", "Delete", new { id = item.Id }) </button>
+                </td>
+
+            </tr>
+
+        }
+
+    </table>

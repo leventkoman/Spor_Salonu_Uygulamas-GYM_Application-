@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GYMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Antreman">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SporcuId" Type="int" Nullable="false" />
+    <Property Name="HarAltGrupId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AppRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AppUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HareketAltGrubu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HareketGrupId" Type="int" Nullable="false" />
+    <Property Name="HarAltGrupAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HareketGrubu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HareketAdi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Olcum">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SporcuId" Type="int" Nullable="false" />
+    <Property Name="OlcumTipiId" Type="int" Nullable="false" />
+    <Property Name="OlcumDegeri" Type="int" />
+    <Property Name="OlcumTarihi" Type="date" />
+  </EntityType>
+  <EntityType Name="OlcumTipi">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OlcumTipi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sporcu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yasi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Antreman_HareketAltGrubu">
+    <End Role="HareketAltGrubu" Type="Self.HareketAltGrubu" Multiplicity="1" />
+    <End Role="Antreman" Type="Self.Antreman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HareketAltGrubu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Antreman">
+        <PropertyRef Name="HarAltGrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Antreman_Sporcu1">
+    <End Role="Sporcu" Type="Self.Sporcu" Multiplicity="1" />
+    <End Role="Antreman" Type="Self.Antreman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sporcu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Antreman">
+        <PropertyRef Name="SporcuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AppUser_AppRole1">
+    <End Role="AppRole" Type="Self.AppRole" Multiplicity="1" />
+    <End Role="AppUser" Type="Self.AppUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AppRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AppUser">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HareketAltGrubu_HareketGrubu1">
+    <End Role="HareketGrubu" Type="Self.HareketGrubu" Multiplicity="1" />
+    <End Role="HareketAltGrubu" Type="Self.HareketAltGrubu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HareketGrubu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HareketAltGrubu">
+        <PropertyRef Name="HareketGrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Olcum_OlcumTipi1">
+    <End Role="OlcumTipi" Type="Self.OlcumTipi" Multiplicity="1" />
+    <End Role="Olcum" Type="Self.Olcum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OlcumTipi">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Olcum">
+        <PropertyRef Name="OlcumTipiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Olcum_Sporcu1">
+    <End Role="Sporcu" Type="Self.Sporcu" Multiplicity="1" />
+    <End Role="Olcum" Type="Self.Olcum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sporcu">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Olcum">
+        <PropertyRef Name="SporcuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GYMModelStoreContainer">
+    <EntitySet Name="Antreman" EntityType="Self.Antreman" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AppRole" EntityType="Self.AppRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AppUser" EntityType="Self.AppUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HareketAltGrubu" EntityType="Self.HareketAltGrubu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HareketGrubu" EntityType="Self.HareketGrubu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Olcum" EntityType="Self.Olcum" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OlcumTipi" EntityType="Self.OlcumTipi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sporcu" EntityType="Self.Sporcu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Antreman_HareketAltGrubu" Association="Self.FK_Antreman_HareketAltGrubu">
+      <End Role="HareketAltGrubu" EntitySet="HareketAltGrubu" />
+      <End Role="Antreman" EntitySet="Antreman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Antreman_Sporcu1" Association="Self.FK_Antreman_Sporcu1">
+      <End Role="Sporcu" EntitySet="Sporcu" />
+      <End Role="Antreman" EntitySet="Antreman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AppUser_AppRole1" Association="Self.FK_AppUser_AppRole1">
+      <End Role="AppRole" EntitySet="AppRole" />
+      <End Role="AppUser" EntitySet="AppUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HareketAltGrubu_HareketGrubu1" Association="Self.FK_HareketAltGrubu_HareketGrubu1">
+      <End Role="HareketGrubu" EntitySet="HareketGrubu" />
+      <End Role="HareketAltGrubu" EntitySet="HareketAltGrubu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Olcum_OlcumTipi1" Association="Self.FK_Olcum_OlcumTipi1">
+      <End Role="OlcumTipi" EntitySet="OlcumTipi" />
+      <End Role="Olcum" EntitySet="Olcum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Olcum_Sporcu1" Association="Self.FK_Olcum_Sporcu1">
+      <End Role="Sporcu" EntitySet="Sporcu" />
+      <End Role="Olcum" EntitySet="Olcum" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

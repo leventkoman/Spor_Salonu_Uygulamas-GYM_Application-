@@ -1,0 +1,57 @@
+﻿@model GYMWebApp.DAL.Olcum
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Olcum</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OlcumDegeri)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OlcumDegeri)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OlcumTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OlcumTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OlcumTipi.OlcumTipi1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OlcumTipi.OlcumTipi1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sporcu.Adi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sporcu.Adi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Listeye Geri Dön", "Index")
+        </div>
+    }
+</div>

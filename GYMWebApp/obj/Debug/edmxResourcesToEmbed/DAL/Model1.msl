@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GYMModelStoreContainer" CdmEntityContainer="WorkOutDBEntities">
+    <EntitySetMapping Name="Antreman">
+      <EntityTypeMapping TypeName="GYMModel.Antreman">
+        <MappingFragment StoreEntitySet="Antreman">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SporcuId" ColumnName="SporcuId" />
+          <ScalarProperty Name="HarAltGrupId" ColumnName="HarAltGrupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HareketAltGrubu">
+      <EntityTypeMapping TypeName="GYMModel.HareketAltGrubu">
+        <MappingFragment StoreEntitySet="HareketAltGrubu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HareketGrupId" ColumnName="HareketGrupId" />
+          <ScalarProperty Name="HarAltGrupAdi" ColumnName="HarAltGrupAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HareketGrubu">
+      <EntityTypeMapping TypeName="GYMModel.HareketGrubu">
+        <MappingFragment StoreEntitySet="HareketGrubu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HareketAdi" ColumnName="HareketAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Olcum">
+      <EntityTypeMapping TypeName="GYMModel.Olcum">
+        <MappingFragment StoreEntitySet="Olcum">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SporcuId" ColumnName="SporcuId" />
+          <ScalarProperty Name="OlcumTipiId" ColumnName="OlcumTipiId" />
+          <ScalarProperty Name="OlcumDegeri" ColumnName="OlcumDegeri" />
+          <ScalarProperty Name="OlcumTarihi" ColumnName="OlcumTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OlcumTipi">
+      <EntityTypeMapping TypeName="GYMModel.OlcumTipi">
+        <MappingFragment StoreEntitySet="OlcumTipi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OlcumTipi1" ColumnName="OlcumTipi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sporcu">
+      <EntityTypeMapping TypeName="GYMModel.Sporcu">
+        <MappingFragment StoreEntitySet="Sporcu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Yasi" ColumnName="Yasi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="GYMModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppRole">
+      <EntityTypeMapping TypeName="GYMModel.AppRole">
+        <MappingFragment StoreEntitySet="AppRole">
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppUser">
+      <EntityTypeMapping TypeName="GYMModel.AppUser">
+        <MappingFragment StoreEntitySet="AppUser">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<GYMWebApp.Models.TariheGoreOlcumListele>
+@{
+    ViewBag.Title = "ListToDate";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<h2>Tarihe Göre Ölçüm Listeleme Sayfası</h2>
+
+<hr/>
+
+    @using (Html.BeginForm("ListToDate", "Olcum", FormMethod.Post))
+    {
+        <input type="date" name="StrDate" placeholder="Tarih seçiniz"/>
+        <input type="date" name="EnDate"  placeholder="Tarih seçiniz"/>
+        <input type="submit" value="Ara" />
+        <hr/>
+        <table class="table">
+            <tr>
+                <td>AD</td>
+                <td>SOYAD</td>
+                <td>Ölçüm Tarihi</td>
+            </tr>
+
+            @foreach (var olcum in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem=>olcum.Adi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem=>olcum.Soyadi)
+                    </td>
+                    <td>
+                        @olcum.Tarih.ToString("dd/MM/yyyy")
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+    }
+
+
+
+
+
+
+

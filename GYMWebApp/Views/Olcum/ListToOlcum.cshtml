@@ -1,0 +1,36 @@
+﻿@model IEnumerable<GYMWebApp.DAL.Olcum>
+@{
+    ViewBag.Title = "ListToOlcum";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+<h2>ListToOlcum</h2>
+
+<div class="form-group">
+    <table style="text-align:left; margin-bottom:10px;">
+        <tr>
+        <td>Item Code</td>
+        <td>@Html.TextBox("SearchString")
+        </td>
+        <tr style="background-color:lightgray;">
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="btn btn-block btn-info"id="buttonsearch" value="Search" />
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+        @foreach (var item in Model) {
+
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.OlcumDegeri)</td>
+                <td style="text-align:right;">@Html.DisplayFor(modelItem => item.Sporcu.Adi)</td>
+                <td style="text-align:right;">@Html.DisplayFor(modelItem => item.Sporcu.Soyadi)</td>
+            </tr>
+        }
+
+    </table>
+</div>

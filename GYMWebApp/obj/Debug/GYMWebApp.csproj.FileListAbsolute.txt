@@ -1,0 +1,137 @@
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\ApplicationInsights.config
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\csc.exe
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\vbc.exe
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\VBCSCompiler.exe
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.dll.config
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.pdb
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.SqlServer.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Web.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.WindowsServer.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.ApplicationInsights.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Helpers.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Mvc.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Razor.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Razor.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.SqlServer.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Web.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.WindowsServer.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.ApplicationInsights.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Razor.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Razor.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Helpers.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Mvc.xml
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.dll
+c:\users\levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.pdb
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Owin.dll
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Levent\documents\visual studio 2015\Projects\GYMWebApp\GYMWebApp\bin\Elmah.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\ApplicationInsights.config
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\csc.exe
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\vbc.exe
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\VBCSCompiler.exe
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.dll.config
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\GYMWebApp.pdb
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Elmah.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.SqlServer.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.DependencyCollector.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Web.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.WindowsServer.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.ApplicationInsights.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Newtonsoft.Json.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Owin.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Helpers.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Mvc.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Razor.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Deployment.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Razor.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\EntityFramework.SqlServer.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.DependencyCollector.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.Web.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AI.WindowsServer.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.ApplicationInsights.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\Newtonsoft.Json.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Razor.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Deployment.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Webpages.Razor.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Helpers.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\bin\System.Web.Mvc.xml
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.csprojAssemblyReference.cache
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.csproj.CopyComplete
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.dll
+F:\Son\Visual Studio\Projects\GYMWebApp\GYMWebApp\obj\Debug\GYMWebApp.pdb
